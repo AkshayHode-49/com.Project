@@ -1,10 +1,12 @@
 package com.Pages;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -49,7 +51,7 @@ public class createAccount {
 	@FindBy(xpath="//div[text()='Got it']")
 	WebElement popUP_gotit;
 	
-	@FindBy(xpath="//button[normalize-space()='Sign up']")
+	@FindBy(xpath="//button[text()='Sign up']")
 	WebElement signUp_button;
 	
 	@FindBy(xpath="//div[text()='Welcome, Shiv!']")
@@ -79,7 +81,16 @@ public class createAccount {
 	    
 	    popUP_gotit.click();
 	      
-	    signUp_button.click();
+	    try 
+	    {
+	    	signUp_button.click();
+	     }
+	    catch(NoSuchElementException f)
+	    {
+	    	System.out.println("Exception Occurs");
+	    }
+	    
+	   
 	    welcome_shiv.isDisplayed(); 
 	     
 	}

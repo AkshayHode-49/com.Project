@@ -16,6 +16,9 @@ public class homePage {
 	@FindBy(xpath="//button[@class='Header-MinicartButtonWrapper']")
 	WebElement cart_option;
 	
+	@FindBy(xpath="//button[@id='myAccount']")
+	WebElement myaccount_link;
+	
 
 
 
@@ -33,6 +36,8 @@ public class homePage {
 	  
 	  System.out.println("Logo displayed :"+logo.isDisplayed());
 	  System.out.println("Cart option :"+cart_option.isDisplayed());
+	  
+	  System.out.println("My account link :"+myaccount_link.isDisplayed());
 	
   }
    
