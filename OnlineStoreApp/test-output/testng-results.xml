@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-30T13:43:08 IST" name="Suite" finished-at="2023-08-30T13:43:48 IST" duration-ms="40434">
+    <groups>
+    </groups>
+    <test started-at="2023-08-30T13:43:08 IST" name="My account" finished-at="2023-08-30T13:43:48 IST" duration-ms="40434">
+      <class name="com.Tests.signInPage_Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.signInPage_Test@38c6f217]" started-at="2023-08-30T13:43:08 IST" name="setUp" finished-at="2023-08-30T13:43:34 IST" duration-ms="25719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signIN()[pri:0, instance:com.Tests.signInPage_Test@38c6f217]" started-at="2023-08-30T13:43:34 IST" name="signIN" finished-at="2023-08-30T13:43:45 IST" duration-ms="11497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIN -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Tests.signInPage_Test@38c6f217]" started-at="2023-08-30T13:43:45 IST" name="tearDown" finished-at="2023-08-30T13:43:48 IST" duration-ms="2923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIN status=SUCCESS method=signInPage_Test.signIN()[pri:0, instance:com.Tests.signInPage_Test@38c6f217] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tests.signInPage_Test -->
+    </test> <!-- My account -->
+  </suite> <!-- Suite -->
+</testng-results>

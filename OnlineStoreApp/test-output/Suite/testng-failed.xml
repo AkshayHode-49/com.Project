@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="My account(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.Tests.creatAccountPage_Test">
+        <methods>
+          <include name="My_account"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Tests.creatAccountPage_Test -->
+    </classes>
+  </test> <!-- My account(failed) -->
+</suite> <!-- Failed suite [Suite] -->
