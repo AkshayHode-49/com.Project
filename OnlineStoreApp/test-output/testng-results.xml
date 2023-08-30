@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-30T13:43:08 IST" name="Suite" finished-at="2023-08-30T13:43:48 IST" duration-ms="40434">
+  <suite started-at="2023-08-30T18:38:16 IST" name="Suite" finished-at="2023-08-30T18:41:03 IST" duration-ms="166761">
     <groups>
     </groups>
-    <test started-at="2023-08-30T13:43:08 IST" name="My account" finished-at="2023-08-30T13:43:48 IST" duration-ms="40434">
-      <class name="com.Tests.signInPage_Test">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.signInPage_Test@38c6f217]" started-at="2023-08-30T13:43:08 IST" name="setUp" finished-at="2023-08-30T13:43:34 IST" duration-ms="25719" status="PASS">
+    <test started-at="2023-08-30T18:38:16 IST" name="My account" finished-at="2023-08-30T18:41:03 IST" duration-ms="166761">
+      <class name="com.Tests.homePage_Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.homePage_Test@38c6f217]" started-at="2023-08-30T18:38:16 IST" name="setUp" finished-at="2023-08-30T18:40:40 IST" duration-ms="143251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="signIN()[pri:0, instance:com.Tests.signInPage_Test@38c6f217]" started-at="2023-08-30T13:43:34 IST" name="signIN" finished-at="2023-08-30T13:43:45 IST" duration-ms="11497" status="PASS">
+        <test-method signature="home_Page()[pri:0, instance:com.Tests.homePage_Test@38c6f217]" started-at="2023-08-30T18:40:40 IST" name="home_Page" finished-at="2023-08-30T18:40:50 IST" duration-ms="10172" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signIN -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Tests.signInPage_Test@38c6f217]" started-at="2023-08-30T13:43:45 IST" name="tearDown" finished-at="2023-08-30T13:43:48 IST" duration-ms="2923" status="PASS">
+        </test-method> <!-- home_Page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Tests.homePage_Test@38c6f217]" started-at="2023-08-30T18:40:50 IST" name="tearDown" finished-at="2023-08-30T18:41:03 IST" duration-ms="12906" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signIN status=SUCCESS method=signInPage_Test.signIN()[pri:0, instance:com.Tests.signInPage_Test@38c6f217] output={null}]]]>
+                <![CDATA[[TestResult name=home_Page status=SUCCESS method=homePage_Test.home_Page()[pri:0, instance:com.Tests.homePage_Test@38c6f217] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Tests.signInPage_Test -->
+      </class> <!-- com.Tests.homePage_Test -->
     </test> <!-- My account -->
   </suite> <!-- Suite -->
 </testng-results>

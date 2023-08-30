@@ -80,11 +80,8 @@ public class createAccount {
 	    popUP_gotit.click();
 	      
 	    signUp_button.click();
-	    
-	    welcome_shiv.isDisplayed();
-	    
-	    Assert.assertEquals(true, true);
-	    
+	    welcome_shiv.isDisplayed(); 
+	     
 	}
 
 }

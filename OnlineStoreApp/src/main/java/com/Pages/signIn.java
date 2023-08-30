@@ -41,8 +41,6 @@ public class signIn {
 		sign_in.click();
 	    welcome_shiv.isDisplayed();
 		    
-	    Assert.assertEquals(true, true);
-		
 		
 	}
 	

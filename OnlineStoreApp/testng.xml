@@ -5,7 +5,7 @@
   <parameter name="browserName" value="chrome"/>
     <classes>
       <class name="com.Tests.baseClass"/>
-      <class name="com.Tests.signInPage_Test"/>
+      <class name="com.Tests.homePage_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
