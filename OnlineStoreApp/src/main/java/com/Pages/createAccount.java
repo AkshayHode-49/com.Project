@@ -90,9 +90,7 @@ public class createAccount {
 	    	System.out.println("Exception Occurs");
 	    }
 	    
-	   
-	    welcome_shiv.isDisplayed(); 
-	     
+	  
 	}
 
 }

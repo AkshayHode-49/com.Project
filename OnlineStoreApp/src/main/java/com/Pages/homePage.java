@@ -18,7 +18,9 @@ public class homePage {
 	
 	@FindBy(xpath="//button[@id='myAccount']")
 	WebElement myaccount_link;
-	
+
+	@FindBy(xpath="//div[text()='Welcome, Shiv!']")
+	WebElement welcome_shiv;
 
 
 
@@ -38,7 +40,7 @@ public class homePage {
 	  System.out.println("Cart option :"+cart_option.isDisplayed());
 	  
 	  System.out.println("My account link :"+myaccount_link.isDisplayed());
-	
+	  
   }
    
 }

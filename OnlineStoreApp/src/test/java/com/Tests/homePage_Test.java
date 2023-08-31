@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 
 import com.Pages.homePage;
 
-public class homePage_Test extends baseClass {
+public class homePage_Test extends baseClass  {
 	
-	@Test
+	@Test()
 	public void home_Page() {
 		
 		homePage h=new homePage(driver);
