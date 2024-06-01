@@ -11,7 +11,6 @@ public class signIn {
 	public String Email="shivthakareBB16@gmail.com";
 	public String Password="shivBB16";
 	
-	
 	@FindBy(xpath="//button[@id='myAccount']")
 	WebElement my_account;
 	
@@ -39,8 +38,7 @@ public class signIn {
 		mail.sendKeys(Email);
 		password.sendKeys(Password);
 		sign_in.click();
-	    welcome_shiv.isDisplayed();
-		    
+	        welcome_shiv.isDisplayed();
 		
 	}
 	
