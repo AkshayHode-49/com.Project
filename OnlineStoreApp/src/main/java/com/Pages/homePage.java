@@ -23,12 +23,9 @@ public class homePage {
 	WebElement welcome_shiv;
 
 
-
-
   public homePage(WebDriver driver) {
 	   
-	  PageFactory.initElements(driver, this);
-	  
+	  PageFactory.initElements(driver, this);	  
   }
   
   public void HomePageLinks_validation() {
